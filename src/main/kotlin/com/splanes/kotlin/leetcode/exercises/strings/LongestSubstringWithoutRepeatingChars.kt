@@ -1,4 +1,4 @@
-package com.splanes.kotlin.leetcode.strings
+package com.splanes.kotlin.leetcode.exercises.strings
 
 fun main() {
 

@@ -1,4 +1,4 @@
-package com.splanes.kotlin.leetcode.lists
+package com.splanes.kotlin.leetcode.exercises.lists
 
 fun main() {
   val addTwoNumbers = AddTwoNumbers()
