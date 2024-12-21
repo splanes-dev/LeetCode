@@ -62,7 +62,6 @@ fun main() {
  */
 class TwoSum {
 
-  // La solución es implementar un enfoque basado en un mapa para resolver el problema más eficientemente.
   fun twoSum(nums: IntArray, target: Int): IntArray {
     val numMap = mutableMapOf<Int, Int>()
     for ((index, num) in nums.withIndex()) {
@@ -72,6 +71,6 @@ class TwoSum {
       }
       numMap[num] = index
     }
-    return intArrayOf() // Retorna un arreglo vacío si no se encuentra ninguna solución
+    return intArrayOf()
   }
 }
